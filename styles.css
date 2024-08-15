@@ -1,0 +1,298 @@
+
+header{
+       height: 50px;
+       margin: 20px 0px;
+
+
+}
+.head{
+    display: flex;
+    justify-content:center;
+    padding: 20px 30px;
+    
+    
+}
+.head, li{
+    text-align: center;
+   list-style-type: none;
+   padding: 20px;
+   
+}
+a:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.head,li,a{
+    text-decoration: none;
+}
+#banner_image{
+    width:100%;
+    height: 80vh;
+    margin-bottom:1%;
+    opacity: 0.1;
+    
+}
+.my_article{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px;
+    
+}
+ .column1{
+    background-color:white;
+    color: black;
+    width: 50%;
+}
+
+.contact{
+    display:flex;
+    justify-content:center;
+    background-color:white
+    color gray
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer, .column3{
+    background-color:gray;
+    width: 100%;
+}
+.footer, .column4{
+    background-color:white;
+    width: 100%;
+
+}
+.footer, .column5{
+    background-color:black;
+    width: 100%;
+
+}
+form input[type=text]{
+    width: 50%;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8.5px;
+    
+    
+    
+
+}
+form button{
+    padding:8.5px;
+    color:black;
+    background-color:gray;
+    cursor:pointer;
+    width:20%;
+    height:10vh;
+    margin-top:20px;
+    font-size: x-large;
+    
+}
+form button:hover{
+    
+    background-color: gray;
+}
+/* about banner pictures */
+
+.about_banner{
+    width: 100%;
+    height: 80px;
+    background-color:gray;
+    color: white;
+    text-align:center;
+    padding:15px 0px;
+    margin-bottom: 1%;
+}
+.about_section{
+    width: 100%;
+    height: 80px;
+    background-color:gray;
+    color: black;
+    text-align: center;
+    margin-bottom: 1%;
+    padding: 5px 0px;
+    height: 30vh;
+}
+*{
+  box-sizing: border-box;
+}
+#container::after{
+    content: "";
+    clear:table;
+    display: both;
+}
+.item-grid{
+    float: left;
+    width: 33.33%;
+    pad: 10px;
+    height: 300px;
+    background-repeat:no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+#form{
+    color:black;
+    text-align:center;
+    font-size: x-large;
+    margin :20px;
+    padding :20px;
+    background-image: url(image/website\ 2.jfif);
+    
+}
+
+/* contact style*/
+.contact_banner{
+    width: 100%;
+    height: 50%;
+    background-color:black;
+    color: gray;
+    text-align: center;
+    padding: 30px;
+}
+.contactmesection{
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    color: white;
+    text-align: center;
+}
+.column{
+    width: 50%;
+    text-align: center;
+}
+.ourlocation{
+    width: 100px;
+    height: 80px;
+    background-color:white;
+    color: grey
+    text-align center;
+}
+.column{
+    text-align: center;
+    width: 100%;
+}
+.mycontact{
+    width: 100%;
+    height: 50%;
+    background-color:white;
+    color:black;
+    text-align: center;
+    
+}
+.mini_footer {
+    width: 20%;
+    height: 20%;
+    background-color:grey;
+    color:black;
+    text-align:center;
+    padding:5px 0px;
+    margin-top: 1%;
+}
+.minifooter{
+    background-color:gray;
+    font-size: x-large;
+    text-align: center;
+    padding: 1px;
+    margin-top: 1%;
+}
+.column1 li:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: x-large;
+}
+.lastofaboutus{
+    cursor: pointer;
+    background-color: white
+}
+label input[type=text]{
+    margin-top: 1%;
+    width: 50%;
+    height: 5vh;
+    margin: 2%
+}
+label input[type=number]{
+    height: 5vh;
+    width: 50%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 15px;
+}
+label input[type=email]{
+    height: 5vh;
+    width: 50%;
+    margin-bottom: 2%;
+
+
+}
+label textarea{
+    height: 10vh;
+    width: 50%;
+}
+label :placeholder-shown{
+    font-size: xx-large;
+}
+.column5  form textarea{
+    width: 50%;
+    height: 15vh;
+}
+.image{
+    display: block;
+    width: 100%;
+    height:auto;
+
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition:.5s ease; 
+}
+
+.text {
+    color: white;
+    font-size:20px; 
+    text-align: center;
+    padding: 10px; 
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform:translate(-50%, -50%) ;
+    text-align: center;
+}
+
+/* Apply hover effect */
+.container:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <ul class="head">
+                    <li><a style="color:black;" href="tutorial.html">HOME</a></li>
+                    <li><a style="color:black;" href="about.html">ABOUT ME</a></li>
+                    <li><a style="color: black;" href="gallery.html">MY GALLERY</a></li>
+                    <li><a style="color: black;" href="contact us new.html">CONTACT</a><li>
+                    </ul>                    
+        
+</header>
+ <!-- banner for contact us -->
+ <div class="about_banner">
+    <h2>CONTACT US </h2>
+</div> 
+<!-- our location -->
+<div class="mycontact">
+    <h1 style="background-color: white; color: black;">Contact Me</h1>
+    <p>If you need to get in touch with me, please use the following information:</p>
+
+    <h2>Phone Number</h2>
+    <p>08034719453</p> 
+
+    <h2>Email Address</h2>
+    <p>olamide.ip@gmail.com</p> 
+
+    <h2>Address</h2>
+    <p>
+        24 Aguntasolo Street<br>
+        Off Ijesha Road, Surulere<br>
+        Lagos, Nigeria
+    </p>
+
+    <p>Feel free to contact me via phone or email. I look forward to hearing from you!</p>
+</div>
+
+<!-- Sending Message Form -->
+<section id="form">
+    <form action="https://formspree.io/f/xanwjorg" 
+    method="POST">
+        <label>
+            Name
+            <br>
+            <input type="text" name="name" placeholder="Name" required>
+        </label><br>
+        <label>
+            Phone number
+            <br>
+            <input type="number" name="number" placeholder="Phone Number" required>
+        </label><br>
+        <label>
+            Your email
+            <br>
+            <input type="email" name="email" placeholder="Your Email address" required>
+        </label><br>
+        <label>
+            Your message
+            <br>
+            <textarea name="message" placeholder="Send us a message" required></textarea> <!-- Fixed spelling of required -->
+        </label><br>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="column3">
+                <img src="image/gu.png" alt="Logo">
+                <p>Shine bright like a diamond</p>
+            </div>
+            <div class="column4">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a style="color:black;" href="tutorial.html">HOME</a></li>
+                    <li><a style="color:black;" href="about.html">ABOUT ME</a></li>
+                    <li><a style="color:black;" href="gallery.html">MY GALLERY</a></li>
+                    <li><a style="color:black;" href="contact us new.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <div class="column5">
+                <h5>Send a Message</h5>
+                <form action="https://formspree.io/f/xanwjorg" 
+                method="POST">
+                <textarea name="message" placeholder="Send us a message" required></textarea>
+                <br>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mini Footer -->
+    <div class="minifooter">
+        <p>&copy; 2024 Made by Olamide Ipaye</p>
+    </div>
+</body>
+</html>
